@@ -1,0 +1,68 @@
+Number of shares: 2, bit width: 32
+Random usage CGV14_RCA : 31 uint_32t.
+Number of shares: 2, bit width: 32
+Random usage CGV14 : 10 uint_32t.
+Random usage SecA2B CSA : 10 uint_32t.
+
+
+benchmark_CGV14_RCA: 
+Avg speed CGV14 : 1362.265668 cycles.
+
+benchmark_CGV14: 
+Avg speed CGV14 : 414.118604 cycles.
+
+benchmark_CSA: 
+Avg speed CSA : 364.096306 cycles.
+
+
+Number of shares: 3, bit width: 32
+Random usage CGV14_RCA : 124 uint_32t.
+Number of shares: 3, bit width: 32
+Random usage CGV14 : 40 uint_32t.
+Random usage SecA2B CSA : 33 uint_32t.
+
+
+benchmark_CGV14_RCA: 
+Avg speed CGV14 : 4467.067619 cycles.
+
+benchmark_CGV14: 
+Avg speed CGV14 : 1490.773852 cycles.
+
+benchmark_CSA: 
+Avg speed CSA : 985.545989 cycles.
+
+
+Number of shares: 4, bit width: 32
+Random usage CGV14_RCA : 248 uint_32t.
+Number of shares: 4, bit width: 32
+Random usage CGV14 : 80 uint_32t.
+Random usage SecA2B CSA : 69 uint_32t.
+
+
+benchmark_CGV14_RCA: 
+Avg speed CGV14 : 8384.486439 cycles.
+
+benchmark_CGV14: 
+Avg speed CGV14 : 2555.964071 cycles.
+
+benchmark_CSA: 
+Avg speed CSA : 1894.980955 cycles.
+
+
+Number of shares: 5, bit width: 32
+Random usage CGV14_RCA : 465 uint_32t.
+Number of shares: 5, bit width: 32
+Random usage CGV14 : 150 uint_32t.
+Random usage SecA2B CSA : 119 uint_32t.
+
+
+benchmark_CGV14_RCA: 
+Avg speed CGV14 : 14090.196289 cycles.
+
+benchmark_CGV14: 
+Avg speed CGV14 : 4664.668416 cycles.
+
+benchmark_CSA: 
+Avg speed CSA : 2946.779024 cycles.
+
+
