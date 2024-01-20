@@ -1,14 +1,3 @@
-// This program is free software; you can redistribute it and/or modify it
-// under the terms of the GNU General Public License version 2 as published
-// by the Free Software Foundation.
-
-// modified in 2023.9.3
-// 1.SecA2B: the expand way by adding 0
-// 2.ConvertAB_RCA: the Expand function is replaced by Expand1 and Expand2
-// 3.2.ConvertAB: the Expand function is replaced by Expand1 and Expand2
-
-
-
 #include <stdint.h>
 #include <stdio.h>
 #include <assert.h>
