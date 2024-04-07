@@ -1,3 +1,5 @@
+/*This code contains generation function, refresh function, remove function, print function for Boolean masking and arithmetic masking.*/
+
 #include <stdint.h>
 #include <stdio.h>
 #include <assert.h>

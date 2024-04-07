@@ -1,3 +1,7 @@
+***************
+This file shows the benchmark results of different A2B schemes on Intel(R) Core(TM) i5-1135G7 @ 2.40GHz CPU platform when gcc optimized compilation option is -O0.
+***************
+
 Number of shares: 2, bit width: 32
 Random usage SecA2B_RSA : 31 bits.
 Number of shares: 2, bit width: 32

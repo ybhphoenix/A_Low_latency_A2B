@@ -1,3 +1,5 @@
+/*This code contains benchmark functions for different A2B schemes*/
+
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>

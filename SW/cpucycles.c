@@ -1,3 +1,5 @@
+/*This code contains the cpu clock cycle count function*/
+
 #include "cpucycles.h"
 #include <time.h>
 

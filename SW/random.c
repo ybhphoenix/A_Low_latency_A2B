@@ -1,3 +1,5 @@
+/*This code contains a random number generator function*/
+
 #include "random.h"
 
 

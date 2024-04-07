@@ -1,3 +1,5 @@
+/*This code contains mask test functions for different A2B schemes*/
+
 #include <stdio.h>
 #include "masking.h"
 #include "convab.h"

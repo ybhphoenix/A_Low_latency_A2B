@@ -1,3 +1,7 @@
+***************
+This file shows the benchmark results of different A2B schemes on Intel(R) Core(TM) i5-1135G7 @ 2.40GHz CPU platform when gcc optimized compilation option is -O2.
+***************
+
 Number of shares: 2, bit width: 32
 Random usage CGV14_RCA : 31 uint_32t.
 Number of shares: 2, bit width: 32

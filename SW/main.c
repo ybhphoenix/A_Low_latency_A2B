@@ -1,3 +1,5 @@
+/*This code is the main function for functional testing.*/
+
 #include <stdint.h>
 #include <time.h>
 

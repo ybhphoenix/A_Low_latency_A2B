@@ -1,0 +1,644 @@
+***************
+This file shows the expected function test results of different A2B schemes.
+***************
+
+Number of shares: 2, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 2, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 2, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 3, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 3, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 3, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 4, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 4, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 4, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 5, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 5, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 5, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 6, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 6, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 6, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 7, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 7, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 7, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 8, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 8, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 8, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 9, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 9, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 9, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 10, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 10, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 10, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 11, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 11, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 11, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 12, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 12, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 12, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 13, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 13, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 13, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 14, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 14, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 14, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 15, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 15, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 15, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 16, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 16, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 16, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 17, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 17, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 17, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 18, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 18, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 18, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 19, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 19, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 19, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 20, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 20, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 20, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 21, bit width: 8
+Test convert A2B RCA: success
+Number of shares: 21, bit width: 8
+Test convert A2B KSA: success
+k=8
+MASK=255
+Number of shares: 21, bit width: 8
+Test convert A2B CSA: success
+Number of shares: 2, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 2, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 2, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 3, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 3, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 3, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 4, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 4, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 4, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 5, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 5, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 5, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 6, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 6, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 6, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 7, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 7, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 7, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 8, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 8, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 8, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 9, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 9, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 9, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 10, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 10, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 10, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 11, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 11, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 11, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 12, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 12, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 12, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 13, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 13, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 13, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 14, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 14, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 14, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 15, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 15, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 15, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 16, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 16, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 16, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 17, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 17, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 17, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 18, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 18, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 18, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 19, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 19, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 19, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 20, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 20, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 20, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 21, bit width: 16
+Test convert A2B RCA: success
+Number of shares: 21, bit width: 16
+Test convert A2B KSA: success
+k=16
+MASK=65535
+Number of shares: 21, bit width: 16
+Test convert A2B CSA: success
+Number of shares: 2, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 2, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 2, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 3, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 3, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 3, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 4, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 4, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 4, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 5, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 5, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 5, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 6, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 6, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 6, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 7, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 7, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 7, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 8, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 8, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 8, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 9, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 9, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 9, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 10, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 10, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 10, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 11, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 11, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 11, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 12, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 12, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 12, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 13, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 13, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 13, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 14, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 14, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 14, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 15, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 15, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 15, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 16, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 16, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 16, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 17, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 17, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 17, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 18, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 18, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 18, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 19, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 19, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 19, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 20, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 20, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 20, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 21, bit width: 24
+Test convert A2B RCA: success
+Number of shares: 21, bit width: 24
+Test convert A2B KSA: success
+k=24
+MASK=16777215
+Number of shares: 21, bit width: 24
+Test convert A2B CSA: success
+Number of shares: 2, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 2, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 2, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 3, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 3, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 3, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 4, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 4, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 4, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 5, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 5, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 5, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 6, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 6, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 6, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 7, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 7, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 7, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 8, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 8, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 8, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 9, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 9, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 9, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 10, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 10, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 10, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 11, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 11, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 11, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 12, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 12, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 12, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 13, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 13, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 13, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 14, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 14, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 14, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 15, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 15, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 15, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 16, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 16, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 16, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 17, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 17, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 17, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 18, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 18, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 18, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 19, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 19, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 19, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 20, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 20, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 20, bit width: 32
+Test convert A2B CSA: success
+Number of shares: 21, bit width: 32
+Test convert A2B RCA: success
+Number of shares: 21, bit width: 32
+Test convert A2B KSA: success
+k=32
+MASK=-1
+Number of shares: 21, bit width: 32
+Test convert A2B CSA: success
