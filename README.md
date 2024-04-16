@@ -11,6 +11,7 @@ Some key directories are shown below.
 |--HW/                ## hardware implementations
   |--lib/             ## basic gate implementations for Python script to generate RTL
   |--python/          ## scripts for RTL generation
+    |--Main_Generator.py ## Run this script to generate the specified parameter RTL
   |--rtl/             ## generated rtl for reference
     |--csa_n3k32/      ## CSA-based A2B rtl with 3 shares and 32 bit width
     |--csa_n4k32/      ## CSA-based A2B rtl with 4 shares and 32 bit width
@@ -89,10 +90,11 @@ By default, to use SIM for RTL.
 
 ### RTL generation command
 
-One should use Python3 and install package by command:
+One should use Python3 and install package imported in ./HW/python/Yaml_Loader.py by command:
 ```
-pip install pyyaml
+pip install PyYAML==5.3.1
 ```
+The version of PyYAML package we are using is 5.3.1 as shown in command.
 
 Use the following command to generate an RTL with the specified parameters:
 ```
