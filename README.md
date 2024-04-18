@@ -99,7 +99,7 @@ The version of PyYAML package we are using is 5.3.1 as shown in command.
 Use the following command to generate an RTL with the specified parameters:
 ```
 $ cd ./HW/python
-$ python3 Main_generator.py type shares width dumpon print_debug
+$ python3 Main_generator.py [type] [shares] [width] [dumpon] [print_debug]
 ```
 The commands `type` `shares` `width` `dumpon` `print_debug` are all adjustable options.
 
