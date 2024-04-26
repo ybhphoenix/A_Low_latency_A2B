@@ -102,7 +102,7 @@ class FListGen:
     def add_ComFiles(self):
         for name, is_rtl, is_def, in get_ComFiles():
             self.list.append(File(name, is_rtl, is_def, int(0)))
-        self.list.append(File("tcbn28hpcplusbwp12t30p140lvt", False, False, int(0)))
+        self.list.append(File("../syn_lib/NangateOpenCellLibrary", False, False, int(0)))
 
 
 

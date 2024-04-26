@@ -114,8 +114,9 @@ class SdcWriter:
         file = "{}.sdc".format(self.name)
         s = ""
         for i in range(0, len(self.clocks)):
-            s = "create_clock -period {:.3f} [get_ports {}] -name clock{}\n".format(self.clocks[i].period, self.clocks[i].name, i)
-            s += "set_clock_uncertainty -setup {:.3f} [get_clocks clock{}]\n".format(self.uncertainty_ratio*self.clocks[i].period, i)
+            s = "set CLK_PERIOD {:.3f}\n".format(self.clocks[i].period)
+            s += "create_clock -period $CLK_PERIOD [get_ports {}] -name clock{}\n".format(self.clocks[i].name, i)
+            s += "set_clock_uncertainty -setup [expr $CLK_PERIOD*{:.3f}] [get_clocks clock{}]\n".format(self.uncertainty_ratio, i)
 
         s += "\n"
         for i in range(0, len(self.ports)):

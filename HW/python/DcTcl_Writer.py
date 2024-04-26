@@ -70,9 +70,9 @@ class DcTclWriter:
         s = "\n\n"
         for i in range(0, len(self.lib_setup_tcl_file)):
             if self.root_path == "":
-                s += "source -e -v ../script/{}\n".format(self.lib_setup_tcl_file[i])
+                s += "source -e -v ../syn_lib/{}\n".format(self.lib_setup_tcl_file[i])
             else:
-                s += "source -e -v {}/work/script/{}\n".format(self.root_path, self.lib_setup_tcl_file[i])
+                s += "source -e -v {}/work/syn_lib/{}\n".format(self.root_path, self.lib_setup_tcl_file[i])
 
         s += "\n"
         s += "set_host_options -max_cores 8\n"
@@ -100,9 +100,8 @@ class DcTclWriter:
 
 
         s += "check_design -html check_design.html\n"
-        s += "uniquify"
-
-        s += "set_operating_conditions -max sg0p81v125c -max_library tcbn28hpcplusbwpl2t30p140hvtssg0p8lv125c_CCs -analysis type_on_chip_variation\n"
+       
+        s += "set_operating_conditions -lib NangateOpenCellLibrary_typical\n"
 
         s += "\n\n"
 
@@ -133,10 +132,10 @@ class DcTclWriter:
         s += "write_sdc  report/{}.sdc\n".format(self.top)
         s += "write_sdf  report/{}.sdf\n".format(self.top)
         s += "\n\n"
-        s += "sizeof_collection [get_lib_cells */ND2D*]\n" 
-        s += "get_lib_cells */ND2D*\n"       
-        s += "get_attribute [get_lib_cells */ND2D*] area\n"
-        s += "\n\n"
+        # s += "sizeof_collection [get_lib_cells */ND2D*]\n" 
+        # s += "get_lib_cells */ND2D*\n"       
+        # s += "get_attribute [get_lib_cells */ND2D*] area\n"
+        # s += "\n\n"
         s += "report_threshold_voltage_group > report/{}.multi_vt\n".format(self.top)
         s += "report_clock_gating -nosplit -ungated > report/{}.clock_gating.rpt\n".format(self.top)
         s += "report_clock -group > report/{}.clk.rpt\n".format(self.top)

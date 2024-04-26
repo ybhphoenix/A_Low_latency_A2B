@@ -48,14 +48,14 @@ def add_comment(comment):
  # 
 #################################################################################
 def get_ComFiles():
-    Comfiles = [["lib/lix_define", 1, 1], \
-                ["lib/lix_and",    1, 0], \
-                ["lib/lix_not",    1, 0], \
-                ["lib/lix_or",     1, 0], \
-                ["lib/lix_reg",    1, 0], \
-                ["lib/lix_shr0",   1, 0], \
-                ["lib/lix_shr1",   1, 0], \
-                ["lib/lix_xor",    1, 0]  ]
+    Comfiles = [["../../lib/lix_define", 1, 1], \
+                ["../../lib/lix_and",    1, 0], \
+                ["../../lib/lix_not",    1, 0], \
+                ["../../lib/lix_or",     1, 0], \
+                ["../../lib/lix_reg",    1, 0], \
+                ["../../lib/lix_shr0",   1, 0], \
+                ["../../lib/lix_shr1",   1, 0], \
+                ["../../lib/lix_xor",    1, 0]  ]
     return Comfiles
 
 
