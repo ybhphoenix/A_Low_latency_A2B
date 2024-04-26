@@ -182,4 +182,4 @@ $ dc_shell -f ../script/synthesis_dc.tcl
 
 As shown in Table 1, we give the synthesized results under the open source process library Nangate45 as a reference.
 
-![ ](Nangate_syn_redults-1.png)
+![ ](https://github.com/ybhphoenix/A_Low_latency_A2B/blob/main/Nangate_syn_redults.png)
