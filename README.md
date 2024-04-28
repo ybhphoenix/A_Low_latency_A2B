@@ -12,7 +12,7 @@ Some key directories are shown below.
   |--lib/             ## basic gate implementations for Python script to generate RTL
   |--python/          ## scripts for RTL generation
     |--Main_Generator.py ## Run this script to generate the specified parameter RTL
-    |--syn_lib/        ## NangateOpenCellLibrary_typical libraries and related tcl for setup
+    |--syn_lib/        ## scripts to setup the path to the standard cell library
   |--expected_results/             ## generated rtl for reference
     |--csa_n3k32/      ## expected generation for CSA-based A2B rtl with 3 shares and 32 bit width
     |--csa_n4k32/      ## expected generation for CSA-based A2B rtl with 4 shares and 32 bit width
@@ -167,19 +167,27 @@ The contents of the output folder ./HW/python/src in example 3 above should be t
 
 One should use Design Compiler Version P-2019.03 for linux64.
 
-After running RTL generation command, we can run the following command on ./HW/python/syn directory for synthesis:
+***Library setup***\
+A standard cell library is required in the liberty (.lib) format. The following Open Libraries can be used:
+* Nangate45 - https://github.com/The-OpenROAD-Project/OpenROAD-flow/tree/master/flow/platforms/nangate45
+
+Modify the ./HW/python/syn_lib/library_setup_dc.tcl script to setup the path to the library.
+
+***Synthesis***\
+After running RTL generation command, we can run the following command in the current directory ./HW/python for synthesis:
 ```
 $ cd ./syn
 $ dc_shell -f ../script/synthesis_dc.tcl
 ```
 We can adjust the `CLK_PERIOD` in the timing constraints file at ./HW/python/sdc to avoid timing violations.
 
-Or you can use our generated rtl code under the expected_results path for direct synthesis. Take CSA-based A2B rtl with 3 shares and 32 bit width as an example and use the following command:
+Or you can use our generated rtl code under the expected_results path for direct synthesis. Take CSA-based A2B rtl with 3 shares and 32 bit width as an example. Modify the ./HW/expected_results/csa_n3k32/syn_lib/library_setup_dc.tcl script to setup the path to the library, and use the following command:
 ```
 $ cd ./HW/expected_results/csa_n3k32/syn
 $ dc_shell -f ../script/synthesis_dc.tcl
 ```
 
-As shown in Table 1, we give the synthesized results under the open source process library Nangate45 as a reference.
+***Reference results***\
+As shown in Table below, we give the synthesized results under the open source process library Nangate45 as a reference.
 
 ![ ](https://github.com/ybhphoenix/A_Low_latency_A2B/blob/main/Nangate_syn_redults.png)
